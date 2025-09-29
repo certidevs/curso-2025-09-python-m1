@@ -32,3 +32,42 @@
 - **Herencia**: reutilización y extensión de código
 - **Polimorfismo**: flexibilidad en el diseño
 - **Composición**: alternativa a la herencia
+
+
+## Flujo de estudio recomendado:
+
+* Tener una carpeta en el escritorio o cualquier otro sitio personal donde abrir visual studio code y escribir archivos de python
+
+* Clonar el repositorio de clase: https://github.com/certidevs/curso-2025-09-python-m1
+
+
+Por tanto la idea sería tener dos visual studio code abiertos a la vez, uno con la carpeta propia personal de cada uno donde se crean y editan archivos, y otro con el repositorio de clase solo para consulta.
+
+## Visual Studio Code
+
+- Code Runner
+- vscode icons
+- Python Extension Pack
+- Python Debugger
+- Python
+- Pylance
+- Python Environments
+
+A mayores:
+
+- GitLens
+- Git Graph
+- GitHub Copilot (Asistente de IA)
+
+Configuración de VSCode: 
+
+* File > Auto Save: Activar guardado automático, para que guarde cambios en archivos.
+
+Crear cuenta:
+
+* github.com: alansastre
+
+
+## Proyectos
+
+Proyectos grupales de 4-5 personas en el que se desarrolla un proyecto python fastapi con base de datos con Visual Studio Code y Git-GitHub. Mentorizados.

@@ -71,3 +71,12 @@ Crear cuenta:
 ## Proyectos
 
 Proyectos grupales de 4-5 personas en el que se desarrolla un proyecto python fastapi con base de datos con Visual Studio Code y Git-GitHub. Mentorizados.
+
+## PERMITIR INPUT EN LA TERMINAL CON CODE RUNNER
+
+1. File > Preferences > Settings (Archivo > Preferencias > Configuración)
+2. Buscar "python run in terminal"
+3. Marcar la opción "Python > Terminal: Execute In File Dir"
+4. Marcar la opción "Code-runner: Run In Terminal"
+
+![alt text](image.png)

@@ -31,7 +31,7 @@ decimal_entero = int(decimal)
 texto_lista = list(texto)
 
 # 8. Convertir el 'booleano' a entero y guardarlo en 'booleano_entero'
-booleano_entero = int(booleano)
+booleano_entero = int()
 
 print("=== VARIABLES CONVERTIDAS ===")
 # Aquí se imprimirán las variables convertidas (no borres estas líneas)

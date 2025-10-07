@@ -3,6 +3,9 @@ print("=" * 20)
 print("OPERADORES ARITMÉTICOS")
 print("=" * 20)
 print("\n")
+"""
+Operadores aritméticos para operaciones matemáticas básicas
+"""
 
 precio_manzanas = 3
 precio_naranjas = 5
@@ -47,43 +50,3 @@ print(f"0.1 + 0.2 = {resultado}")
 
 resultado_redondeado = round(resultado, 2)
 print(f"Redondeado a 2 decimales: {resultado_redondeado}")
-
-print("\n")
-print("=" * 20)
-print("OPERADORES DE COMPARACIÓN")
-print("=" * 20)
-print("\n")
-
-precio_producto_a = 15
-precio_producto_b = 10
-
-es_mas_barato = precio_producto_b < precio_producto_a
-print(f"¿El producto B es más barato que el A? {es_mas_barato}")
-
-print("\n")
-print("=" * 20)
-print("OPERADORES LÓGICOS")
-print("=" * 20)
-print("\n")
-
-ingresos_suficientes = True
-buen_historial_crediticio = True
-
-aprobacion_prestamo = ingresos_suficientes and buen_historial_crediticio
-print(f"¿Préstamo aprobado? {aprobacion_prestamo}")
-
-ingresos_suficientes = False
-buen_historial_crediticio = True
-
-aprobacion_prestamo = ingresos_suficientes and buen_historial_crediticio
-print(f"¿Préstamo aprobado? {aprobacion_prestamo}")
-
-es_socio = False
-tiene_invitacion = True
-
-puede_entrar = es_socio or tiene_invitacion
-print(f"¿Puede entrar al evento? {puede_entrar}")
-
-disponible = False
-no_disponible = not disponible
-print(f"¿El producto no está disponible?")

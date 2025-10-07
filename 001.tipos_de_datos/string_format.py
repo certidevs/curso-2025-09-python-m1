@@ -19,3 +19,7 @@ id = 34
 precio = 54
 descripcion = "Compra de {} piezas de producto con id {} a precio {:.2f} €"
 print(descripcion.format(cantidad, id, precio))
+
+# f-string es la forma moderna o rápida de formatear textos:
+
+print(f"Compra de {cantidad} piezas a precio {precio:.2f} €")

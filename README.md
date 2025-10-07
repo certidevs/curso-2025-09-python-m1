@@ -80,3 +80,12 @@ Proyectos grupales de 4-5 personas en el que se desarrolla un proyecto python fa
 4. Marcar la opción "Code-runner: Run In Terminal"
 
 ![alt text](image.png)
+
+
+## JUPYTER NOTEBOOK
+
+Cuadernos para ejecutar celdas de python cada una con su propio resultado.
+
+Ideal para ciencia de datos y para aprender código python.
+
+Google Colab con cuenta de Gmail: https://colab.research.google.com/ 

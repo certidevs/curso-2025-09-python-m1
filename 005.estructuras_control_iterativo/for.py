@@ -63,9 +63,3 @@ print("\n")
 for indice, nombre in enumerate(nombres):
     print(f"Posición {indice}: {nombre}")
 
-print("\n")
-print("=" * 20)
-print("BUCLES WHILE")
-print("=" * 20)
-print("\n")
-

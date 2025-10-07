@@ -1,3 +1,26 @@
+
+"""
+Estructuras de control condicional
+
+Sirven para evaluar una o varias condiciones y decidir si ejecutar un
+bloque de código o no.
+
+Crean bifurcaciones en la ejecución del código.
+
+Los programas se ejecutan secuencialmente desde arriba hacia abajo
+
+Con if else y match podemos crear saltos en el código en base a condiciones.
+
+Son:
+
+if
+elif
+else
+
+match case
+
+"""
+
 print("\n")
 print("=" * 20)
 print("ESTRUCTURAS CONTROL CONDICIONAL")

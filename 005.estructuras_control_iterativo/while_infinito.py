@@ -7,6 +7,8 @@ Ideal para aplicaciones de terminal-consola (cli)
 Salimos del bucle cuando el usuario escriba salir
 
 Es indeterminado porque a priori no sabemos cuándo el usuario va a querer salir
+
+break rompe el bucle, sale del bucle.
 """
 
 while True:

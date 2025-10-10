@@ -1,3 +1,3 @@
 
 
-# Gestor de contactos por terminal sí habrá input
+# Gestor de contactos-productos por terminal sí habrá input

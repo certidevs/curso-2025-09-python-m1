@@ -45,6 +45,10 @@ CRUD: (Create, Read, Update, Delete):
         * ValueError: 'Alan' is not in list
 * Clonar:
     * copy()
+    
+* Ordenar:
+    * sort()
+    * reverse()
 """
 
 nombres1 = ['Juan', 'María', 'Mike', 'Pepe', 'Reyes', 'Kary', 'Juan']

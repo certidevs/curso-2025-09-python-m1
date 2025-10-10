@@ -95,3 +95,31 @@ Google Colab con cuenta de Gmail: https://colab.research.google.com/
 * codewars
 * leetcode
 * hackerrank
+
+
+## REPASO
+
+* Funciones
+    * Reutilizar bloques de código: def
+    * Sin parámetros: def hola()
+    * Con parámetros: def hola(nombre, apellido)
+    * Sin retorno: no devuelve nada
+    * Con retorno: return
+    * Ejemplos:
+        * login
+        * login con número máximo de intentos
+
+* Estructuras de datos:
+    * variable almacena un dato
+    * una estructura de datos almacena varios datos
+    * listas: [] (la más interesante de aprender)
+        * [], list()
+        * append()
+        * remove()
+        * ...
+    * tuplas: (,) inmutables, recuperar datos para lectura
+    * diccionarios: {:,:}
+    * conjuntos: {}
+
+Ejercicios:
+    * 

@@ -29,20 +29,33 @@ def login_1():
             print("Has agotado todos los intentos, adiós.")
             sys.exit(1) # para salir del programa
     
+# Versión alternativa, más simplificado al no tener que restar intentos
 def login_2():
-    pass          
+    for intento in range(1,4):
+        user_email = input("Introduce tu mail: ")
+        user_pass = input("Introduce tu contraseña: ")
 
-def elegir_opcion():
-    print("")
-    opcion = input()
-    return opcion
-    
+        if user_email == VALID_EMAIL and user_pass == VALID_PASSWORD:
+            return True
+        else:
+            print(f"Datos incorrectos llevas {intento} /3 ")
+
+    print("Has excedido los intentos, saliedo...")
+    sys.exit(1) # para salir del     
+
 
 if login_1():
-    opcion = elegir_opcion()
-    print(f"Has elegido la opcion {opcion}")
-    # hacer algo en base a la opcion elegida por el usuario:
-    # if...
-    # elif...
-    # elif...
-    # else
+    while True:
+        print("Bienvenido/a a la aplicación. Opciones disponibles: 1 - ver productos, 2 - crear producto, 3 - terminar el programa.")
+        opcion = input("Introduce una opción: ")
+        print(f"Has elegido la opcion {opcion}")
+        
+        if opcion == "1":
+            print("1")
+        elif opcion == "2":
+            print("2")
+        elif opcion == "3" or opcion == "salir":
+            print("saliendo...")
+            break
+        else:
+            print("opción incorrecta.")

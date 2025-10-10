@@ -43,10 +43,11 @@ CRUD: (Create, Read, Update, Delete):
     * 'Pepe' in nombres
     * nombres.index('María') devuelve el índica de la primera ocurrencia 
         * ValueError: 'Alan' is not in list
-
+* Clonar:
+    * copy()
 """
 
 nombres1 = ['Juan', 'María', 'Mike', 'Pepe', 'Reyes', 'Kary', 'Juan']
 nombres2 = ['Juan', 'María', 'Mike', 'Pepe', 'Reyes', 'Kary']
 
-print(nombres1.index('Alan'))
+print(nombres1 * 2)

@@ -89,3 +89,9 @@ Cuadernos para ejecutar celdas de python cada una con su propio resultado.
 Ideal para ciencia de datos y para aprender código python.
 
 Google Colab con cuenta de Gmail: https://colab.research.google.com/ 
+
+## PLATAFORMAS DE PRÁCTICA
+
+* codewars
+* leetcode
+* hackerrank

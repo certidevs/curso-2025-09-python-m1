@@ -51,7 +51,54 @@ CRUD: (Create, Read, Update, Delete):
     * reverse()
 """
 
-nombres1 = ['Juan', 'María', 'Mike', 'Pepe', 'Reyes', 'Kary', 'Juan']
-nombres2 = ['Juan', 'María', 'Mike', 'Pepe', 'Reyes', 'Kary']
+lista_vacia = []
+otra_lista_vacia = list()
+
+nombres1 = ['Juan', 'Grajilla', 'Mike', 'Pepe', 'Reyes', 'Kary', 'Jaime']
+nombres2 = ['Juan', 'Grajilla', 'Mike', 'Pepe', 'Reyes', 'Kary']
 
 print(nombres1 * 2)
+
+print()
+
+mi_pajaro_favorito = nombres1[1]
+print(mi_pajaro_favorito)
+
+print()
+
+ultimo_nombre = nombres1[-1]
+print(ultimo_nombre)
+
+print()
+
+numeros = [10, 20, 30, 40, 50, 60, 70]
+
+primeros_tres = numeros[0:3]
+print(primeros_tres)
+
+print()
+
+compras = ["leche", "pan", "huevos", "frutas"]
+
+if "pan" in compras:
+    print("Pan está en la lista de compras")
+    
+if "queso" not in compras:
+    print("Necesito añadir queso a la lista")
+
+print()
+
+tareas = ["estudiar", "hacer ejercicio", "programar", "descansar"]
+
+cantidad_tareas = len(tareas)  # 4
+print(cantidad_tareas)
+
+posicion = tareas.index("programar")  # 2
+
+print()
+
+zurron = ["poción", "espada", "escudo", "poción", "armadura ligera", "poción"]
+ocurrencias_pocion = zurron.count("poción")  # 3
+print(f"{ocurrencias_pocion} poción(es)")
+
+print()

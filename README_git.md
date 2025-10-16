@@ -107,7 +107,41 @@ Una vez ahí, se hace Click en "New" (Nuevo)
 
 ![alt text](image-32.png)
 
-### Cómo eliminar un repositorio desde GitHub
+## Cómo clonar un repositorio en Visual Studio Code
+
+1. En la barra lateral, vamos a la pestaña de Control de Versiones
+
+![alt text](image-33.png)
+
+2. Hacemos click en "Clone repository" (Clonar repositorio)
+
+![alt text](image-34.png)
+
+O si ya estamos en otro repositorio, se hace click en los 3 puntos verticales de CHANGES (CAMBIOS) y hacemos click en "Clone" (Clonar)
+
+![alt text](image-40.png)
+
+3. Copiamos la URL de nuestro repositorio (o el que queramos clonar)
+
+![alt text](image-35.png)
+
+4. Pegar la URL del repositorio a clonar y darle a "Clone from URL" (Clonar desde URL)
+
+![alt text](image-36.png)
+
+5. Elegir dónde guardar la carpeta que se va a crear de este repositorio y hacer click en "Select as Repository Destination" (Seleccionar como Destino de Repositorio)
+
+![alt text](image-37.png)
+
+6. Hacemos click en "Open" (Abrir) si queremos que se abra el repositorio en la ventana actual o en "Open in New Window" (Abrir en Nueva Ventana) si queremos que se abra otra ventana con el repositorio clonado
+
+![alt text](image-38.png)
+
+7. Comprobamos que se haya abierto y clonado correctamente
+
+![alt text](image-39.png)
+
+## Cómo eliminar un repositorio desde GitHub
 
 1. Desde el repositorio en GitHub, se hace click en "Settings" (Ajustes)
 ![alt text](image-15.png)

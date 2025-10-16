@@ -58,6 +58,54 @@ A veces tienes que volver a iniciar sesión, se da a "Confirm" (Confirmar)
 
 ![alt text](image-14.png)
 
+### Desde GitHub a local
+
+1. En la barra superior, darle al botón del + y darle a "New reposity" (Nuevo repositorio)
+
+![alt text](image-21.png)
+
+O también se puede hacer click en nuestra foto de perfil y darle a "Repositories" (Repositorios)
+
+![alt text](image-22.png)
+
+Una vez ahí, se hace Click en "New" (Nuevo)
+![alt text](image-23.png)
+
+2. Elegimos el nombre de nuestro repositorio. Ten en cuenta que no puedes tener dos repositorios con el mismo nombre. El propio GitHub te avisará si ya existe uno con ese mismo nombre.
+
+![alt text](image-24.png)
+
+3. Podemos añadir una descripción si lo queremos
+
+![alt text](image-25.png)
+
+4. Elegimos la visibilidad del repositorio. Si es público lo podrá ver todo el mundo y si es privado sólo lo podremos ver nosotros y quienes elijamos.
+
+![alt text](image-26.png)
+
+5. Elegir si añadir un archivo README o no
+
+![alt text](image-27.png)
+
+6. Elegir si añadir un archivo .gitignore o no
+
+![alt text](image-28.png)
+
+7. Elegimos si añadir licencia o no
+
+![alt text](image-29.png)
+
+8. Una vez configurado todo, hacemos click en "Create repository" (Crear repositorio)
+
+![alt text](image-30.png)
+
+9. Comprobamos que se ha creado el repositorio correctamente
+
+![alt text](image-31.png)
+
+10. Clonar el repositorio en nuestro IDE de preferencia
+
+![alt text](image-32.png)
 
 ### Cómo eliminar un repositorio desde GitHub
 

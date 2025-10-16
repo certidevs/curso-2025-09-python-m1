@@ -1,5 +1,39 @@
 # GIT Y GITHUB
 
+## Cómo clonar el repositorio de clase
+
+1. En la barra lateral, vamos a la pestaña de Control de Versiones
+
+![alt text](image-33.png)
+
+2. Hacemos click en "Clone repository" (Clonar repositorio)
+
+![alt text](image-34.png)
+
+O si ya estamos en otro repositorio, se hace click en los 3 puntos verticales de CHANGES (CAMBIOS) y hacemos click en "Clone" (Clonar)
+
+![alt text](image-40.png)
+
+3. Copiamos la URL del repositorio de clase (para el módulo 1: https://github.com/certidevs/curso-2025-09-python-m1)
+
+![alt text](image-42.png)
+
+4. Pegar la URL del repositorio a clonar y darle a "Clone from URL" (Clonar desde URL)
+
+![alt text](image-41.png)
+
+5. Elegir dónde guardar la carpeta que se va a crear de este repositorio y hacer click en "Select as Repository Destination" (Seleccionar como Destino de Repositorio)
+
+![alt text](image-37.png)
+
+6. Hacemos click en "Open" (Abrir) si queremos que se abra el repositorio en la ventana actual o en "Open in New Window" (Abrir en Nueva Ventana) si queremos que se abra otra ventana con el repositorio clonado
+
+![alt text](image-38.png)
+
+7. Comprobamos que se haya abierto y clonado correctamente
+
+![alt text](image-43.png)
+
 ## Cómo crear un repositorio
 
 ### Desde local a GitHub

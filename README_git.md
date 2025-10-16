@@ -34,6 +34,48 @@ O si ya estamos en otro repositorio, se hace click en los 3 puntos verticales de
 
 ![alt text](image-43.png)
 
+## Cómo subir cambios a GitHub
+
+1. Hago cambios en mi proyecto. Para comprobar si hay cambios, aparecerá una círculo azul en el icono de Control de Versiones de la barra lateral
+
+![alt text](image-44.png)
+
+2. Vamos a la pestaña de Control de Versiones en la barra lateral y en "Changes" (Cambios), en minúscula, hacemos click en el + para mover los archivos al área de preparación. 
+
+![alt text](image-45.png)
+
+Si sólo quieres hacer commit de algún archivo en concreto, darle al + que está al lado de dicho archivo.
+
+![alt text](image-46.png)
+
+3. Una vez estén los archivos que quieres en "Staged Changes", escribes el mensaje del commit en el recuardo "Message" (Mensaje)
+
+![alt text](image-47.png)
+
+4. Una vez hayas escrito el mensaje, se le da a "Commit"
+
+![alt text](image-48.png)
+
+5. Comprobamos que se haya realizado correctamente el commit fijándonos en el GRAPH
+
+![alt text](image-49.png)
+
+6. Para subir los cambios a GitHub, se hace click en los 3 puntos al lado de CHANGES (CAMBIOS), en mayúscula, y se le da a "Push"
+
+![alt text](image-50.png)
+
+Si sólo tenías ese cambio, también le puedes dar a "Sync Changes" (Sincronizar Cambios)
+
+![alt text](image-51.png)
+
+7. Darle a "OK" cuando te diga que va a hacer un pull y push
+
+![alt text](image-52.png)
+
+8. Comprobar que se hayan subido correctamente los cambios al repositorio de GitHub
+
+![alt text](image-53.png)
+
 ## Cómo crear un repositorio
 
 ### Desde local a GitHub

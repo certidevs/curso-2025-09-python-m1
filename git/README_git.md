@@ -257,7 +257,7 @@ O si ya estamos en otro repositorio, se hace click en los 3 puntos verticales de
 3. Se hace click en "I want to delete this repository" (Quiero eliminar este repositorio)
 ![alt text](image-17.png)
 
-4. Lees los efectos que va a tener y haces click en "I have read and understand this effects" (He leído y entiendo estos efectos)
+4. Lees los efectos que va a tener y haces click en "I have read and understand these effects" (He leído y entiendo estos efectos)
 ![alt text](image-18.png)
 
 5. Escribes lo que te pida (normalmente es tu nombre de usuario y el nombre del repo o el número de estrellas que tiene tu repo) y haces click en "Delete this repositorio" (Eliminar este repositorio)
@@ -265,3 +265,40 @@ O si ya estamos en otro repositorio, se hace click en los 3 puntos verticales de
 
 6. Comprobamos que se ha eliminado el repositorio correctamente
 ![alt text](image-20.png)
+
+
+## Cómo cambiar la visibilidad de un repositorio (público/privado)
+
+Supongamos que tenemos un repositorio privado y queremos cambiar la visibilidad a público.
+
+1. Hacemos click en la pestaña "Settings" (Ajustes) de la barra del respositorio en GitHub.
+
+![alt text](image-59.png)
+
+2. En General (la sección por defecto) bajar hasta abajo del todo y en "Danger Zone" (Zona de Peligro), hacer click en "Change repository visibility" (Cambiar la visibilidad del repositorio)
+
+![alt text](image-60.png)
+
+3. Se hace click en "Change to public" (Cambiar a público). Aunque si lo tenemos público y lo queremos cambiar a privado aparecerá del revés.
+
+![alt text](image-61.png)
+
+4. Le damos a "I want to make this repository public" (Quiero hacer este repositorio público). Aunque si lo tenemos público y lo queremos cambiar a privado aparecerá del revés.
+
+![alt text](image-62.png)
+
+5. Lees los efectos que va a tener y haces click en "I have read and understand these effects" (He leído y entiendo estos efectos).
+
+![alt text](image-63.png)
+
+6. Se le da click a "Make this repository public" (Hacer este repositorio público). Aunque si lo tenemos público y lo queremos cambiar a privado aparecerá del revés.
+
+![alt text](image-64.png)
+
+Si lo tienes público y lo quieres pasar a privado, te hará escribir las estrellas que tiene tu repositorio.
+
+![alt text](image-66.png)
+
+7. Comprobar que se haya cambiado correctamente
+
+![alt text](image-65.png)

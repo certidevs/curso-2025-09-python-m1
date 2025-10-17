@@ -123,3 +123,29 @@ Google Colab con cuenta de Gmail: https://colab.research.google.com/
 
 Ejercicios:
     * 
+
+
+Opciones:
+* 1. resolver dudas
+* 2. definir enunciado de app.py gestor de productos
+
+
+Proyecto:
+* Grupos
+* Tematicas: 
+    * gestor de tareas
+    * cartelera de cine
+    * mini-ecommerce sin carrito
+* En clase:
+    * Resolución de dudas
+    * Avanzar con el material de los módulos; FASTAPI, SQLALCHEMY, JINJA BOOTSTRAP
+    * Proyectos: Tarea, Proyecto, Usuario, Categoria, Comentario
+
+
+* FASTAPI
+    * API REST RESPONDE JSON
+    * JINJA2 RESPONDE HTML product-list.html
+
+* Frameworks:
+    * Acceso a base de datos: SQLAlchemy ORM (models.py)
+    * Backend: FastAPI

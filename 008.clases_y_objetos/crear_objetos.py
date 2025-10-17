@@ -36,3 +36,9 @@ class Libro:
 libro = Libro("The Pillars of the Earth", "Ken Follett", 1000)
 
 otro_libro = Libro("The Evening and the Morning", "Ken Follet")
+
+
+titulo = input("Título del libro: ") 
+author = input("Autor del libro: ")
+
+libro3 = Libro(titulo , author)

@@ -76,6 +76,35 @@ Si sólo tenías ese cambio, también le puedes dar a "Sync Changes" (Sincroniza
 
 ![alt text](image-53.png)
 
+## Cómo traer los cambios de GitHub
+
+1. Para comprobar si ha habido algún cambio en el remoto (en el repositorio de GitHub), le damos a los 3 puntos de "CHANGES" (CAMBIOS), en mayúscula, y hacemos click en "Fetch". Fetch sirve para que nos avise si hay algún cambio pero no nos hace pull (no nos trae los cambios al repositorio, sólo avisa).
+
+![alt text](image-54.png)
+
+2. Si vemos que en el GRAPH hay commits que dice "origin" significa que existen cambios en GitHub que no nos hemos traído al repositorio en local.
+
+![alt text](image-55.png)
+
+3. Para traer los cambios, le damos los 3 puntos de "CHANGES" (CAMBIOS), en mayúscula, y hacemos click en "Pull".
+
+![alt text](image-56.png)
+
+Si no tenemos ningún cambio en nuestro repo, se le puede dar a "Sync Changes" (Sincronizar Cambios).
+
+![alt text](image-57.png)
+
+4. Darle a "OK" cuando te diga que va a hacer un pull y push.
+
+![alt text](image-52.png)
+
+5. Si nos da conflicto, resolver el conflicto antes de hacer el pull.
+
+6. Comprobamos que se hayan traído los cambios correctamente.
+
+![alt text](image-58.png)
+
+
 ## Cómo crear un repositorio
 
 ### Desde local a GitHub

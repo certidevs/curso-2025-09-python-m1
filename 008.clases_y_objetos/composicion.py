@@ -58,6 +58,28 @@ categoria1.productos.append(producto2)
 categoria1.productos.append(producto3)
 categoria2.productos.append(producto4)
 
+
+# relación BIDIRECCIONAL (ambas conocen de la otra)
+
+# crear las clases
+class Categoria:
+    def __init__(self, id, nombre, descripcion):
+        self.id = id
+        self.nombre = nombre
+        self.descripcion = descripcion
+        self.productos = [] # lista de productos
+
+class Producto:
+    def __init__(self, id, nombre, precio, categoria):
+        self.id = id
+        self.nombre = nombre
+        self.precio = precio
+        self.categoria = categoria # agregamos referencia
+
+categoria1 = Categoria(1, "Electrónica", "Dispositivos electrónicos")
+producto1 = Producto(1, "Portátil", 799.99, categoria1)
+producto2 = Producto(2, "Teclado mecánico", 150.0, categoria1)
+
 """
 Muchos a Uno (Many to One):
     Un profesor trabaja en UN departamento. Y ese departamento puede tener MUCHOS profesores.

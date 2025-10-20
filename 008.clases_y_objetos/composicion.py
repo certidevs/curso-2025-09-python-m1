@@ -3,6 +3,26 @@ Uno a Uno (One to One):
     Un ciudadano español tiene UN DNI. Y ese DNI pertenece sólo a UN ciudadano español.
 """
 
+# crear las clases
+class Ciudadano:
+    def __init__(self, id, nombre, apellido, edad):
+        self.id = id
+        self.nombre = nombre
+        self.apellido = apellido
+        self.edad = edad
+        self.dni = None
+        
+class DNI:
+    def __init__(self, id, numero):
+        self.id = id
+        self.numero = numero
+
+# crear los objetos
+ciudadano1 = Ciudadano(1, "Grajilla", "Occidental", 27)
+dni1 = DNI(1, "12345678Z")
+
+# asignar la referencia
+ciudadano1.dni = dni1
 
 
 """

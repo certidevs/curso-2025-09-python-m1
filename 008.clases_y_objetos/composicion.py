@@ -30,7 +30,33 @@ Uno a Muchos (One to Many):
     Una categoría puede tener MUCHOS productos. Y un producto sólo puede pertenecer a UNA categoría.
 """
 
+# crear las clases
+class Categoria:
+    def __init__(self, id, nombre, descripcion):
+        self.id = id
+        self.nombre = nombre
+        self.descripcion = descripcion
+        self.productos = []
 
+class Producto:
+    def __init__(self, id, nombre, precio):
+        self.id = id
+        self.nombre = nombre
+        self.precio = precio
+        
+# crear los objetos
+categoria1 = Categoria(1, "Lácteos", "Productos derivados de la leche")
+categoria2 = Categoria(2, "Frutas", "Productos frescos")
+producto1 = Producto(1, "Leche", 1.0)
+producto2 = Producto(2, "Queso", 4.5)
+producto3 = Producto(3, "Yogur", 1.25)
+producto4 = Producto(4, "Naranja", 0.75)
+
+# asignar la referencia
+categoria1.productos.append(producto1)
+categoria1.productos.append(producto2)
+categoria1.productos.append(producto3)
+categoria2.productos.append(producto4)
 
 """
 Muchos a Uno (Many to One):

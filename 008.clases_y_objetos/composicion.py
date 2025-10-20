@@ -37,6 +37,26 @@ Muchos a Uno (Many to One):
     Un profesor trabaja en UN departamento. Y ese departamento puede tener MUCHOS profesores.
 """
 
+# crear las clases
+class Departamento:
+    def __init__(self, id, nombre, ubicacion):
+        self.id = id
+        self.nombre = nombre
+        self.ubicacion = ubicacion
+
+class Profesor:
+    def __init__(self, id, nombre, especialidad, departamento):
+        self.id = id
+        self.nombre = nombre
+        self.especialidad = especialidad
+        self.departamento = departamento
+
+# crear los objetos
+dpto1 = Departamento(1, "Matemáticas", "Edificio A1")
+
+# asignar la referencia
+profesor1 = Profesor(1, "Tornasol", "Topología", dpto1)
+profesor2 = Profesor(2, "Bacterio", "Cálculo", dpto1)
 
 
 """

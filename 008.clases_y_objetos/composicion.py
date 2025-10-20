@@ -26,6 +26,33 @@ ciudadano1.dni = dni1
 
 
 """
+Muchos a Uno (Many to One):
+    Un profesor trabaja en UN departamento. Y ese departamento puede tener MUCHOS profesores.
+"""
+
+# crear las clases
+class Departamento:
+    def __init__(self, id, nombre, ubicacion):
+        self.id = id
+        self.nombre = nombre
+        self.ubicacion = ubicacion
+
+class Profesor:
+    def __init__(self, id, nombre, especialidad, departamento):
+        self.id = id
+        self.nombre = nombre
+        self.especialidad = especialidad
+        self.departamento = departamento
+
+# crear los objetos
+dpto1 = Departamento(1, "Matemáticas", "Edificio A1")
+
+# asignar la referencia
+profesor1 = Profesor(1, "Tornasol", "Topología", dpto1)
+profesor2 = Profesor(2, "Bacterio", "Cálculo", dpto1)
+
+
+"""
 Uno a Muchos (One to Many):
     Una categoría puede tener MUCHOS productos. Y un producto sólo puede pertenecer a UNA categoría.
 """
@@ -80,36 +107,48 @@ categoria1 = Categoria(1, "Electrónica", "Dispositivos electrónicos")
 producto1 = Producto(1, "Portátil", 799.99, categoria1)
 producto2 = Producto(2, "Teclado mecánico", 150.0, categoria1)
 
-"""
-Muchos a Uno (Many to One):
-    Un profesor trabaja en UN departamento. Y ese departamento puede tener MUCHOS profesores.
-"""
-
-# crear las clases
-class Departamento:
-    def __init__(self, id, nombre, ubicacion):
-        self.id = id
-        self.nombre = nombre
-        self.ubicacion = ubicacion
-
-class Profesor:
-    def __init__(self, id, nombre, especialidad, departamento):
-        self.id = id
-        self.nombre = nombre
-        self.especialidad = especialidad
-        self.departamento = departamento
-
-# crear los objetos
-dpto1 = Departamento(1, "Matemáticas", "Edificio A1")
-
-# asignar la referencia
-profesor1 = Profesor(1, "Tornasol", "Topología", dpto1)
-profesor2 = Profesor(2, "Bacterio", "Cálculo", dpto1)
-
 
 """
 Muchos a muchos (Many to Many):
     Un estudiante pueden tener MUCHAS asignaturas. Cada asignatura puede tener MUCHOS estudiantes.
 """
 
+class Estudiante:
+    def __init__(self, id, nombre, edad):
+        self.id = id
+        self.nombre = nombre
+        self.edad = edad
+        self.asignaturas = [] # lista de asignaturas
 
+class Asignatura:
+    def __init__(self, id, nombre, creditos):
+        self.id = id
+        self.nombre = nombre
+        self.creditos = creditos
+        self.estudiantes = [] # lista de estudiantes
+
+# tabla intermedia
+class EstudianteAsignatura:
+    def __init__(self, estudiante_id, asignatura_id, nota):
+        self.estudiante_id = estudiante_id
+        self.asignatura_id = asignatura_id
+        self.nota = nota
+        
+# crear objetos
+estudiante1 = Estudiante(1, "Ana", 20)
+estudiante2 = Estudiante(2, "Pepe", 22)
+asignatura1 = Asignatura(1, "Matemáticas", 6)
+asignatura2 = Asignatura(2, "Criptografía", 3)
+
+# relaciones
+estudiante1.asignaturas = [asignatura1, asignatura2]
+estudiante2.asignaturas = [asignatura1]
+
+asignatura1.estudiantes = [estudiante1, estudiante2]
+asignatura2.estudiantes = [estudiante1]
+
+relaciones = [
+    EstudianteAsignatura(1, 1, 8.5),
+    EstudianteAsignatura(1, 2, 6.0),
+    EstudianteAsignatura(2, 1, 7.5)
+]

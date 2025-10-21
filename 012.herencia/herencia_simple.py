@@ -26,7 +26,7 @@ class Vehiculo:
         return f"Vehículo: {self.marca} {self.modelo} del año {self.año}"
 
 class Automovil(Vehiculo):
-    def __init__(self, marca, modelo, año, puertas):
+    def __init__(marca, modelo, año, puertas):
         # super().__init__(self, marca, modelo, año)
         Vehiculo.__init__(self, marca, modelo, año)
         self.puertas = puertas

@@ -149,3 +149,44 @@ Proyecto:
 * Frameworks:
     * Acceso a base de datos: SQLAlchemy ORM (models.py)
     * Backend: FastAPI
+
+PROYECTOS:
+
+* Gestor de tareas:
+    * Tarea, Proyecto, Categoría, Comentario, Usuario
+* Cartelera de cine
+    * Pelicula, Genero, Cine, Salas
+* Ecommerce
+* Restaurantes
+* Casas rurales estilo airbnb
+* Gestor de citas profesionales
+
+Requisitos:
+* 5 entidades/tablas
+* Asociación ManyToOne
+* 3 pantallas por cada entidad: listado, detalle, formulario
+
+* Grupo:
+    * 1-2 mentores/as voluntarios
+
+* Aplicación de gestión de proyectos:
+    * GitHub, Trello, Jira, Notion
+
+
+RESUMEN MÓDULO 1:
+
+* Variables y tipos de datos
+* Operadores
+* Estructuras de control: for, while
+* Estructuras datos: listas []
+* Función: def
+* Clases y objetos
+* Opcional: composición, herencia, polimorfismo
+
+RESUMEN MÓDULO 2:
+
+* Instalar FastAPI: pip install fastapi
+* app.py con API REST básica, funciones def, guardar objetos en lista []
+* reemplazar lista [] por guardar en base de datos
+* class, def
+
